@@ -1,6 +1,6 @@
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(background1.jpg);
+    background-image: url(jumbotron-img.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,9 +8,18 @@
     height: 750px;
 }
 
-.navbar-fixed-top {
-  background-color: rgba(255, 255, 255, 0.5);
+.jumbotron h1 {
+  color: #0d09e1;
+}
+
+.jumbotron p {
+  color: #2724ff;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 1);
   min-height: 60px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .navbar-brand {
@@ -18,13 +27,16 @@
 }
 
 .nav > li {
-  font-size: 20px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 3px;
 }
 
-.nav > li > a:hover{
+.nav > li > a:hover,
+.nav > li > a:focus {
     background-color: inherit;
-    color: #EEE;
+    color: #083872;
 }
 
 .title {
