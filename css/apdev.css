@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -61,6 +62,12 @@ p {
     color: #083872;
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: inherit;
+}
+
 .title {
   margin-top: 100px;
 }
@@ -73,4 +80,13 @@ p {
 .contact-container {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #739ac6;
+}
+
+.footer-custom {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
