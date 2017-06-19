@@ -34,6 +34,12 @@ p {
   color: #0d09e1;
 }
 
+@media screen and (max-width: 380px) {
+  .jumbotron h1 {
+    font-size: 70px;
+  }
+}
+
 .jumbotron p {
   font-size: 28px;
   color: #2724ff;
