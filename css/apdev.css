@@ -4,6 +4,12 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
 h2 {
   font-family: 'Rubik', sans-serif;
   font-size: 50px;
@@ -15,6 +21,10 @@ h3 {
 
 p {
   font-size: 16px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .jumbotron {
@@ -49,6 +59,7 @@ p {
   background-color: rgba(255, 255, 255, .95);
   min-height: 60px;
   border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .3);
 }
 
 .navbar-toggle {
@@ -86,14 +97,34 @@ p {
   margin-top: 100px;
 }
 
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.curr-app-advert {
+  background-color: #80f7f3;
+}
+
+.curr-app-advert h1 {
+  margin-bottom: 20px;
+}
+
+.turn-idea-app {
+  background-color: #efefef;
+}
+
+.turn-idea-app h2 {
+  margin-top: 0px;
+}
+
+.turn-idea-app p {
+  font-size: 18px;
+}
+
 .contact {
   background-color: #001ee0;
   color: white;
-}
-
-.contact-container {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .footer {
