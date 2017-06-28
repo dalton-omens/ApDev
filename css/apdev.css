@@ -29,7 +29,7 @@ a:hover {
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(jumbotron-img.jpg);
+    background-image: url(../images/jumbotron-img.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -127,6 +127,15 @@ a:hover {
   color: white;
 }
 
+.mission {
+  background-color: #c6e48b;
+}
+
+.mission h1 {
+  font-size: 26px;
+  line-height: 35px;
+}
+
 .footer {
   background-color: #739ac6;
 }
@@ -134,4 +143,8 @@ a:hover {
 .footer-custom {
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.footer-custom a {
+  color: #023663;
 }
