@@ -110,6 +110,32 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.about-blurb {
+  background-image: url(../images/dark-triangles.png);
+  color: white;
+}
+
+.about-blurb p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 380px) {
+  .about-blurb p {
+    text-align: left;
+    font-size: 17px;
+  }
+}
+
+.box-border {
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.padding {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .turn-idea-app {
   background-color: #efefef;
 }
