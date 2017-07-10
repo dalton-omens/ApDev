@@ -38,13 +38,19 @@ a:hover {
     font-family: 'Rubik', sans-serif;
 }
 
+@media screen and (max-width: 380px) {
+  .jumbotron {
+    min-height: 500px;
+  }
+}
+
 .jumbotron h1 {
   font-weight: 900;
-  font-size: 90px;
+  font-size: 15vmin;
   color: #0d09e1;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   .jumbotron h1 {
     font-size: 70px;
   }
@@ -111,6 +117,7 @@ a:hover {
 }
 
 .about-blurb {
+  /* Background pattern from Subtle Patterns */
   background-image: url(../images/dark-triangles.png);
   color: white;
 }
@@ -136,6 +143,23 @@ a:hover {
   margin-right: 40px;
 }
 
+.careers {
+  /* Background pattern from Subtle Patterns */
+  background-image: url(../images/triangular.png);
+}
+
+.careers p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 380px) {
+  .careers p {
+    text-align: left;
+    font-size: 17px;
+  }
+}
+
 .turn-idea-app {
   background-color: #efefef;
 }
@@ -148,11 +172,6 @@ a:hover {
   font-size: 18px;
 }
 
-.contact {
-  background-color: #001ee0;
-  color: white;
-}
-
 .mission {
   background-color: #c6e48b;
 }
@@ -162,8 +181,24 @@ a:hover {
   line-height: 35px;
 }
 
+.contact {
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #20394f, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #20394f, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.contact a {
+  color: #74acdc;
+}
+
+.contact a:hover {
+  color: #4985b9;
+}
+
 .footer {
   background-color: #739ac6;
+  box-shadow: 0 0 .5em #739ac6;
 }
 
 .footer-custom {
@@ -172,5 +207,9 @@ a:hover {
 }
 
 .footer-custom a {
-  color: #023663;
+  color: #1d64a2;
+}
+
+.footer-custom a:hover {
+  color: #0e528e;
 }
