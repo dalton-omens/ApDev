@@ -27,6 +27,10 @@ a:hover {
   text-decoration: none;
 }
 
+.tab1 {
+  padding-left: 4em;
+}
+
 .jumbotron {
     margin-bottom: 0px;
     background-image: url(../images/jumbotron-img.jpg);
@@ -34,8 +38,12 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    min-height: 750px;
+    min-height: 500px;
     font-family: 'Rubik', sans-serif;
+}
+
+.jumbo-large {
+  min-height: 750px;
 }
 
 @media screen and (max-width: 380px) {
@@ -160,6 +168,26 @@ a:hover {
     text-align: left;
     font-size: 17px;
   }
+}
+
+.news {
+
+}
+
+.article h2 {
+  color: blue;
+  text-shadow: 1px 1px black;
+}
+
+@media screen and (max-width: 380px) {
+  .article h2 {
+    font-size: 40px;
+  }
+}
+
+.article p {
+  font-size: 18px;
+  line-height: 175%;
 }
 
 .turn-idea-app {
