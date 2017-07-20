@@ -48,6 +48,7 @@ a:hover {
   font-weight: 900;
   font-size: 15vmin;
   color: #0d09e1;
+  text-shadow: 3px 3px black;
 }
 
 @media screen and (max-width: 500px) {
@@ -136,6 +137,7 @@ a:hover {
 
 .box-border {
   background-color: rgba(255, 255, 255, .15);
+  box-shadow: 2px 3px 12px black;
 }
 
 .padding {
