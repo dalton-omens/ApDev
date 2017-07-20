@@ -211,6 +211,14 @@ a:hover {
   line-height: 35px;
 }
 
+.services {
+  background-color: #E8E5D9;
+}
+
+.services h1 {
+  line-height: 175%;
+}
+
 .contact {
   background: #4B79A1;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #20394f, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
