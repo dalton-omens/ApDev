@@ -212,11 +212,28 @@ a:hover {
 }
 
 .services {
+
+}
+
+.serv1 {
   background-color: #E8E5D9;
+}
+
+.serv2 {
+  background-color: #cc3300;
+  color: white;
+}
+
+.serv3 {
+  background-color: #ffa64d;
 }
 
 .services h1 {
   line-height: 175%;
+}
+
+.services p {
+  font-size: 18px;
 }
 
 .contact {
@@ -250,4 +267,16 @@ a:hover {
 
 .footer-custom a:hover {
   color: #0e528e;
+}
+
+@media screen and (min-width: 500px) {
+  .vertical-align {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.inline-pic {
+display: flex;
+align-items: center;
 }
