@@ -56,6 +56,7 @@ a:hover {
   font-weight: 900;
   font-size: 15vmin;
   color: #0d09e1;
+  color: navy;
   text-shadow: 3px 3px black;
 }
 
@@ -67,7 +68,7 @@ a:hover {
 
 .jumbotron p {
   font-size: 28px;
-  color: #2724ff;
+  color: darkblue;
 }
 
 .navbar {
@@ -175,7 +176,7 @@ a:hover {
 }
 
 .article h2 {
-  color: blue;
+  color: navy;
   text-shadow: 1px 1px black;
 }
 
@@ -211,10 +212,6 @@ a:hover {
   line-height: 35px;
 }
 
-.services {
-
-}
-
 .serv1 {
   background-color: #E8E5D9;
 }
@@ -234,6 +231,11 @@ a:hover {
 
 .services p {
   font-size: 18px;
+}
+
+.privacy h2 {
+  color: navy;
+  font-size: 24px;
 }
 
 .contact {
