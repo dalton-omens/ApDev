@@ -271,6 +271,12 @@ a:hover {
   color: #0e528e;
 }
 
+@media screen and (max-width: 768px) {
+  .footer-custom p {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 500px) {
   .vertical-align {
     display: flex;
