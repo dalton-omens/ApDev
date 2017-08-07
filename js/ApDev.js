@@ -44,3 +44,11 @@ $(function() {
 
   revealOnScroll();
 });
+
+//OBFUSCATION
+var s = "=b!isfg>#nbjmup;TvqqpsuABqEfwTpmvujpot/dpn@tvckfdu>BqEfwTpmvujpot!Xfc!Jorvjsz!#?Dmjdl!Ifsf!Up!Fnbjm!Vt\"=0b?";
+m = "";
+  for (i=0; i<s.length; i++) {
+    m+=String.fromCharCode(s.charCodeAt(i)-1);
+  }
+document.getElementById('method1').innerHTML=(m);
